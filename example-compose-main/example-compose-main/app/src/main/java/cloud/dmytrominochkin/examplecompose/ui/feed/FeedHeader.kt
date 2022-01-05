@@ -23,17 +23,17 @@ fun FeedHeader() {
         Column {
             Spacer(modifier = Modifier.size(24.dp))
             Text(
-                text = "Welcome back,",
+                text = "WELCOME,",
                 style = MaterialTheme.typography.body2,
                 modifier = Modifier.padding(start = 16.dp)
             )
             Text(
-                text = "Nahorna Margo!",
+                text = "Taras Lukashuk!",
                 style = MaterialTheme.typography.h6,
                 modifier = Modifier.padding(start = 16.dp)
             )
             Spacer(modifier = Modifier.size(16.dp))
-            RoundedHeader(title = "For you the newest feed with dogs")
+            RoundedHeader(title = "Some new dogs were found for you!")
         }
     }
 }
